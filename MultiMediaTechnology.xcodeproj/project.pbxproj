@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B47300721DEFC0F600F5AE44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300711DEFC0F600F5AE44 /* main.m */; };
+		B47300751DEFC0F600F5AE44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300741DEFC0F600F5AE44 /* AppDelegate.m */; };
+		B47300781DEFC0F600F5AE44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300771DEFC0F600F5AE44 /* ViewController.m */; };
+		B473007B1DEFC0F600F5AE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47300791DEFC0F600F5AE44 /* Main.storyboard */; };
+		B473007D1DEFC0F600F5AE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B473007C1DEFC0F600F5AE44 /* Assets.xcassets */; };
+		B47300801DEFC0F600F5AE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B473007E1DEFC0F600F5AE44 /* LaunchScreen.storyboard */; };
+		B47300891DEFC86C00F5AE44 /* AudioPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300881DEFC86C00F5AE44 /* AudioPlayViewController.m */; };
+		B473008C1DEFC8DD00F5AE44 /* AudioRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B473008B1DEFC8DD00F5AE44 /* AudioRecordViewController.m */; };
+		B473008F1DEFC90A00F5AE44 /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B473008E1DEFC90A00F5AE44 /* VideoPlayViewController.m */; };
+		B47300921DEFC92B00F5AE44 /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300911DEFC92B00F5AE44 /* TakePhotoViewController.m */; };
+		B47300951DEFC98200F5AE44 /* VideoRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300941DEFC98200F5AE44 /* VideoRecordViewController.m */; };
+		B47300971DEFD02900F5AE44 /* order.wav in Resources */ = {isa = PBXBuildFile; fileRef = B47300961DEFD02900F5AE44 /* order.wav */; };
+		B47300991DEFF13E00F5AE44 /* 陈姿彤-我的世界.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B47300981DEFF13E00F5AE44 /* 陈姿彤-我的世界.mp3 */; };
+		B473009C1DF0083800F5AE44 /* AudioPlayerFlexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B473009B1DF0083800F5AE44 /* AudioPlayerFlexViewController.m */; };
+		B473009F1DF00DD300F5AE44 /* PlaySystemMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B473009E1DF00DD300F5AE44 /* PlaySystemMusicViewController.m */; };
+		B47300A21DF1088600F5AE44 /* PlayRomoteAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300A11DF1088600F5AE44 /* PlayRomoteAudioViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B473006D1DEFC0F600F5AE44 /* MultiMediaTechnology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiMediaTechnology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47300711DEFC0F600F5AE44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B47300731DEFC0F600F5AE44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B47300741DEFC0F600F5AE44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B47300761DEFC0F600F5AE44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B47300771DEFC0F600F5AE44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B473007A1DEFC0F600F5AE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B473007C1DEFC0F600F5AE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B473007F1DEFC0F600F5AE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B47300811DEFC0F600F5AE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47300871DEFC86C00F5AE44 /* AudioPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayViewController.h; sourceTree = "<group>"; };
+		B47300881DEFC86C00F5AE44 /* AudioPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayViewController.m; sourceTree = "<group>"; };
+		B473008A1DEFC8DD00F5AE44 /* AudioRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecordViewController.h; sourceTree = "<group>"; };
+		B473008B1DEFC8DD00F5AE44 /* AudioRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecordViewController.m; sourceTree = "<group>"; };
+		B473008D1DEFC90A00F5AE44 /* VideoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayViewController.h; sourceTree = "<group>"; };
+		B473008E1DEFC90A00F5AE44 /* VideoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayViewController.m; sourceTree = "<group>"; };
+		B47300901DEFC92B00F5AE44 /* TakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		B47300911DEFC92B00F5AE44 /* TakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
+		B47300931DEFC98200F5AE44 /* VideoRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRecordViewController.h; sourceTree = "<group>"; };
+		B47300941DEFC98200F5AE44 /* VideoRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRecordViewController.m; sourceTree = "<group>"; };
+		B47300961DEFD02900F5AE44 /* order.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = order.wav; sourceTree = "<group>"; };
+		B47300981DEFF13E00F5AE44 /* 陈姿彤-我的世界.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈姿彤-我的世界.mp3"; sourceTree = "<group>"; };
+		B473009A1DF0083800F5AE44 /* AudioPlayerFlexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerFlexViewController.h; sourceTree = "<group>"; };
+		B473009B1DF0083800F5AE44 /* AudioPlayerFlexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerFlexViewController.m; sourceTree = "<group>"; };
+		B473009D1DF00DD300F5AE44 /* PlaySystemMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaySystemMusicViewController.h; sourceTree = "<group>"; };
+		B473009E1DF00DD300F5AE44 /* PlaySystemMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySystemMusicViewController.m; sourceTree = "<group>"; };
+		B47300A01DF1088600F5AE44 /* PlayRomoteAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayRomoteAudioViewController.h; sourceTree = "<group>"; };
+		B47300A11DF1088600F5AE44 /* PlayRomoteAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayRomoteAudioViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B473006A1DEFC0F600F5AE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B47300641DEFC0F600F5AE44 = {
+			isa = PBXGroup;
+			children = (
+				B473006F1DEFC0F600F5AE44 /* MultiMediaTechnology */,
+				B473006E1DEFC0F600F5AE44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B473006E1DEFC0F600F5AE44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B473006D1DEFC0F600F5AE44 /* MultiMediaTechnology.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B473006F1DEFC0F600F5AE44 /* MultiMediaTechnology */ = {
+			isa = PBXGroup;
+			children = (
+				B47300731DEFC0F600F5AE44 /* AppDelegate.h */,
+				B47300741DEFC0F600F5AE44 /* AppDelegate.m */,
+				B47300761DEFC0F600F5AE44 /* ViewController.h */,
+				B47300771DEFC0F600F5AE44 /* ViewController.m */,
+				B47300871DEFC86C00F5AE44 /* AudioPlayViewController.h */,
+				B47300881DEFC86C00F5AE44 /* AudioPlayViewController.m */,
+				B473009A1DF0083800F5AE44 /* AudioPlayerFlexViewController.h */,
+				B473009B1DF0083800F5AE44 /* AudioPlayerFlexViewController.m */,
+				B473009D1DF00DD300F5AE44 /* PlaySystemMusicViewController.h */,
+				B473009E1DF00DD300F5AE44 /* PlaySystemMusicViewController.m */,
+				B473008A1DEFC8DD00F5AE44 /* AudioRecordViewController.h */,
+				B473008B1DEFC8DD00F5AE44 /* AudioRecordViewController.m */,
+				B47300A01DF1088600F5AE44 /* PlayRomoteAudioViewController.h */,
+				B47300A11DF1088600F5AE44 /* PlayRomoteAudioViewController.m */,
+				B473008D1DEFC90A00F5AE44 /* VideoPlayViewController.h */,
+				B473008E1DEFC90A00F5AE44 /* VideoPlayViewController.m */,
+				B47300931DEFC98200F5AE44 /* VideoRecordViewController.h */,
+				B47300941DEFC98200F5AE44 /* VideoRecordViewController.m */,
+				B47300901DEFC92B00F5AE44 /* TakePhotoViewController.h */,
+				B47300911DEFC92B00F5AE44 /* TakePhotoViewController.m */,
+				B47300791DEFC0F600F5AE44 /* Main.storyboard */,
+				B473007C1DEFC0F600F5AE44 /* Assets.xcassets */,
+				B473007E1DEFC0F600F5AE44 /* LaunchScreen.storyboard */,
+				B47300811DEFC0F600F5AE44 /* Info.plist */,
+				B47300701DEFC0F600F5AE44 /* Supporting Files */,
+			);
+			path = MultiMediaTechnology;
+			sourceTree = "<group>";
+		};
+		B47300701DEFC0F600F5AE44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47300961DEFD02900F5AE44 /* order.wav */,
+				B47300981DEFF13E00F5AE44 /* 陈姿彤-我的世界.mp3 */,
+				B47300711DEFC0F600F5AE44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B473006C1DEFC0F600F5AE44 /* MultiMediaTechnology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47300841DEFC0F600F5AE44 /* Build configuration list for PBXNativeTarget "MultiMediaTechnology" */;
+			buildPhases = (
+				B47300691DEFC0F600F5AE44 /* Sources */,
+				B473006A1DEFC0F600F5AE44 /* Frameworks */,
+				B473006B1DEFC0F600F5AE44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiMediaTechnology;
+			productName = MultiMediaTechnology;
+			productReference = B473006D1DEFC0F600F5AE44 /* MultiMediaTechnology.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B47300651DEFC0F600F5AE44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = txx;
+				TargetAttributes = {
+					B473006C1DEFC0F600F5AE44 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5LW8U9Y7T4;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B47300681DEFC0F600F5AE44 /* Build configuration list for PBXProject "MultiMediaTechnology" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B47300641DEFC0F600F5AE44;
+			productRefGroup = B473006E1DEFC0F600F5AE44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B473006C1DEFC0F600F5AE44 /* MultiMediaTechnology */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B473006B1DEFC0F600F5AE44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47300801DEFC0F600F5AE44 /* LaunchScreen.storyboard in Resources */,
+				B473007D1DEFC0F600F5AE44 /* Assets.xcassets in Resources */,
+				B473007B1DEFC0F600F5AE44 /* Main.storyboard in Resources */,
+				B47300991DEFF13E00F5AE44 /* 陈姿彤-我的世界.mp3 in Resources */,
+				B47300971DEFD02900F5AE44 /* order.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B47300691DEFC0F600F5AE44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B473008C1DEFC8DD00F5AE44 /* AudioRecordViewController.m in Sources */,
+				B47300781DEFC0F600F5AE44 /* ViewController.m in Sources */,
+				B473008F1DEFC90A00F5AE44 /* VideoPlayViewController.m in Sources */,
+				B47300A21DF1088600F5AE44 /* PlayRomoteAudioViewController.m in Sources */,
+				B47300951DEFC98200F5AE44 /* VideoRecordViewController.m in Sources */,
+				B47300751DEFC0F600F5AE44 /* AppDelegate.m in Sources */,
+				B47300921DEFC92B00F5AE44 /* TakePhotoViewController.m in Sources */,
+				B47300721DEFC0F600F5AE44 /* main.m in Sources */,
+				B473009C1DF0083800F5AE44 /* AudioPlayerFlexViewController.m in Sources */,
+				B47300891DEFC86C00F5AE44 /* AudioPlayViewController.m in Sources */,
+				B473009F1DF00DD300F5AE44 /* PlaySystemMusicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B47300791DEFC0F600F5AE44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B473007A1DEFC0F600F5AE44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B473007E1DEFC0F600F5AE44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B473007F1DEFC0F600F5AE44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B47300821DEFC0F600F5AE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B47300831DEFC0F600F5AE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B47300851DEFC0F600F5AE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5LW8U9Y7T4;
+				INFOPLIST_FILE = MultiMediaTechnology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51jk.MultiMediaTechnology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B47300861DEFC0F600F5AE44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5LW8U9Y7T4;
+				INFOPLIST_FILE = MultiMediaTechnology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51jk.MultiMediaTechnology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B47300681DEFC0F600F5AE44 /* Build configuration list for PBXProject "MultiMediaTechnology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47300821DEFC0F600F5AE44 /* Debug */,
+				B47300831DEFC0F600F5AE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47300841DEFC0F600F5AE44 /* Build configuration list for PBXNativeTarget "MultiMediaTechnology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47300851DEFC0F600F5AE44 /* Debug */,
+				B47300861DEFC0F600F5AE44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B47300651DEFC0F600F5AE44 /* Project object */;
+}
