@@ -1,0 +1,15 @@
+PODS:
+  - FreeStreamer (3.6.5):
+    - Reachability (~> 3.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - FreeStreamer (~> 3.6.5)
+
+SPEC CHECKSUMS:
+  FreeStreamer: 81973ddd08677aa40f5edebc867664a7c0326da5
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: c6fb95501b025771bdb15a82c1853ca4d5e299bd
+
+COCOAPODS: 1.1.1

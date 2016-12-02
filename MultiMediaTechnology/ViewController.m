@@ -11,6 +11,7 @@
 #import "AudioPlayerFlexViewController.h"
 #import "PlaySystemMusicViewController.h"
 #import "AudioRecordViewController.h"
+#import "PlayRomoteAudioViewController.h"
 #import "VideoPlayViewController.h"
 #import "VideoRecordViewController.h"
 #import "TakePhotoViewController.h"
@@ -68,16 +69,22 @@
             break;
         }
         case 4:{
+            PlayRomoteAudioViewController *playRomoteVc = [[PlayRomoteAudioViewController alloc]init];
+            [self.navigationController pushViewController:playRomoteVc animated:YES];
+            break;
+        }
+
+        case 5:{
             VideoPlayViewController *videoPlayVc = [[VideoPlayViewController alloc]init];
             [self.navigationController pushViewController:videoPlayVc animated:YES];
             break;
         }
-        case 5:{
+        case 6:{
             VideoRecordViewController *videoRecordVc = [[VideoRecordViewController alloc]init];
             [self.navigationController pushViewController:videoRecordVc animated:YES];
             break;
         }
-        case 6:{
+        case 7:{
             TakePhotoViewController *takePhotoVc = [[TakePhotoViewController alloc]init];
             [self.navigationController pushViewController:takePhotoVc animated:YES];
             break;

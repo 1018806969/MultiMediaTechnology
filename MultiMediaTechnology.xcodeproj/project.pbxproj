@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457BEEF3BE6DFEB835BF5B5F /* libPods-MultiMediaTechnology.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E2033387396A7752E16B48 /* libPods-MultiMediaTechnology.a */; };
 		B47300721DEFC0F600F5AE44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300711DEFC0F600F5AE44 /* main.m */; };
 		B47300751DEFC0F600F5AE44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300741DEFC0F600F5AE44 /* AppDelegate.m */; };
 		B47300781DEFC0F600F5AE44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47300771DEFC0F600F5AE44 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42E2033387396A7752E16B48 /* libPods-MultiMediaTechnology.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiMediaTechnology.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7C9BD49F3FC032CC4D2C2F /* Pods-MultiMediaTechnology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiMediaTechnology.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiMediaTechnology/Pods-MultiMediaTechnology.release.xcconfig"; sourceTree = "<group>"; };
 		B473006D1DEFC0F600F5AE44 /* MultiMediaTechnology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiMediaTechnology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47300711DEFC0F600F5AE44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B47300731DEFC0F600F5AE44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		B473009E1DF00DD300F5AE44 /* PlaySystemMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySystemMusicViewController.m; sourceTree = "<group>"; };
 		B47300A01DF1088600F5AE44 /* PlayRomoteAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayRomoteAudioViewController.h; sourceTree = "<group>"; };
 		B47300A11DF1088600F5AE44 /* PlayRomoteAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayRomoteAudioViewController.m; sourceTree = "<group>"; };
+		BB6D55F83733F5A34174CFD8 /* Pods-MultiMediaTechnology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiMediaTechnology.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiMediaTechnology/Pods-MultiMediaTechnology.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				457BEEF3BE6DFEB835BF5B5F /* libPods-MultiMediaTechnology.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21B8D50B1C00435AA11FE623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB6D55F83733F5A34174CFD8 /* Pods-MultiMediaTechnology.debug.xcconfig */,
+				7D7C9BD49F3FC032CC4D2C2F /* Pods-MultiMediaTechnology.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59A53E42D5837D6D2F9CC958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E2033387396A7752E16B48 /* libPods-MultiMediaTechnology.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B47300641DEFC0F600F5AE44 = {
 			isa = PBXGroup;
 			children = (
 				B473006F1DEFC0F600F5AE44 /* MultiMediaTechnology */,
 				B473006E1DEFC0F600F5AE44 /* Products */,
+				21B8D50B1C00435AA11FE623 /* Pods */,
+				59A53E42D5837D6D2F9CC958 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B47300841DEFC0F600F5AE44 /* Build configuration list for PBXNativeTarget "MultiMediaTechnology" */;
 			buildPhases = (
+				E474B81EA19A7519DFD009F9 /* [CP] Check Pods Manifest.lock */,
 				B47300691DEFC0F600F5AE44 /* Sources */,
 				B473006A1DEFC0F600F5AE44 /* Frameworks */,
 				B473006B1DEFC0F600F5AE44 /* Resources */,
+				17B0ACC905970AA561B84733 /* [CP] Embed Pods Frameworks */,
+				25CF5C208C4FD0CB6485B2DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +226,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17B0ACC905970AA561B84733 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiMediaTechnology/Pods-MultiMediaTechnology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25CF5C208C4FD0CB6485B2DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiMediaTechnology/Pods-MultiMediaTechnology-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E474B81EA19A7519DFD009F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B47300691DEFC0F600F5AE44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +333,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -280,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -305,6 +381,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -321,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -330,10 +407,12 @@
 		};
 		B47300851DEFC0F600F5AE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6D55F83733F5A34174CFD8 /* Pods-MultiMediaTechnology.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LW8U9Y7T4;
 				INFOPLIST_FILE = MultiMediaTechnology/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51jk.MultiMediaTechnology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -342,10 +421,12 @@
 		};
 		B47300861DEFC0F600F5AE44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7C9BD49F3FC032CC4D2C2F /* Pods-MultiMediaTechnology.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LW8U9Y7T4;
 				INFOPLIST_FILE = MultiMediaTechnology/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51jk.MultiMediaTechnology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +452,7 @@
 				B47300861DEFC0F600F5AE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
